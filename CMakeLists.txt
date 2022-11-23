@@ -7,5 +7,5 @@ add_compile_options(-Wall)
 add_library(arithmetic SHARED add.c sub.c mul.c dur.c)
 
 add_executable(prog cal_main.c)
-target_link_libraries(prog PUBLIC arithmetic) //
+target_link_libraries(prog PUBLIC arithmetic) /
 
